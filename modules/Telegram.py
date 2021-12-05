@@ -5,11 +5,11 @@ import json
 # Class Telegram
 class Telegram:
     def __init__(self):
-        self.API = "https://api.telegram.org/bot" + "5089058278:AAEBvK84SjcR47CDl763tkYes1DNi3ccvSo" + "/sendMessage"
+        self.API = "https://api.telegram.org/bot" + "XXXXXxxxxxxxxxxx" + "/sendMessage"
 
     def send_telegram_message(self, message):
         data = {
-            "chat_id": "-1001761530166",
+            "chat_id": "-10017xxxx45",
             "text": message
         }
         try:
